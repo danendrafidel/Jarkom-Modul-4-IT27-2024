@@ -52,6 +52,7 @@
 | A20         | GEN:1 - Gamers                                                              | 2         | /30     |
 | A21         | Gamers - Switch13 - Korone - Switch13 - Okayu - Switch13 - Mio              | 120       | /25     |
 | A22         | GEN:1 - Member - FBK_Matsuri - Member - Aki_Hachama                         | 470       | /23     |
+| TOTAL       |                                                                             | 4263      | /19     |
 
 ## VLSM
 
