@@ -28,21 +28,21 @@
 
 ## RUTE SUBNET
 
-| Nama Subnet | Rute          | Jumlah IP | Netmask               |
-| ----------- | ------------- | --------- | --------------------- |
-| A1          | Haato-Council | 29        | /27 (255.255.255.224) |
-| A2          | Holo-Myth     | 22        | /27 (255.255.255.224) |
-| A3          | Furewa-Alpha  | 5         | /29 (255.255.255.248) |
-| A4          | Risu          | 19        | /27 (255.255.255.224) |
-| A5          | AREA-15       | 17        | /27 (255.255.255.224) |
-| A6          | Korone        | 51        | /26 (255.255.255.192) |
-| A7          | Ali_Hachama   | 128       | /25 (255.255.255.128) |
-| A8          | GAMERS        | 10        | /28 (255.255.255.240) |
-| A9          | GEN 1         | 4         | /30 (255.255.255.252) |
-| A10         | GEN 2         | 4         | /30 (255.255.255.252) |
-| A11         | DEV_IS        | 9         | /28 (255.255.255.240) |
-| A12         | Kuroe_Kurueme | 29        | /27 (255.255.255.224) |
-| A13         | Sora_Beta_2   | 42        | /26 (255.255.255.192) |
+| Nama Subnet | Rute                                                                        | Jumlah IP | Netmask               |
+| ----------- | --------------------------------------------------------------------------- | --------- | --------------------- |
+| A1          | HoloLive - HoloEn                                                           | 2         | /30                   |
+| A2          | HoloEn - Router0                                                            | 2         | /30                   |
+| A3          | Router0 - Switch2 - Gura_Ayne_Ina - Switch2 - Kiara_Calli                   | 503       | /23                   |
+| A4          | HoloEn - HoloAdvent                                                         | 2         | /30                   |
+| A5          | HoloAdvent - Switch0 - FuwaMoco - Switch0 - ShioriNerissa - Switch- - Biboo | 27        | /27                   |
+| A6          | Router0 - HoloPromise - HoloCouncil - HoloPromise - Router4                 | 3         | /29                   |
+| A7          | Router4 - Tys                                                               | 4         | /29                   |
+| A8          | HoloCouncil - Switch4 - KroniMumei - Switch4 - BaeFauna                     | 62        | /26                   |
+| A9          | GEN 1                                                                       | 4         | /30 (255.255.255.252) |
+| A10         | GEN 2                                                                       | 4         | /30 (255.255.255.252) |
+| A11         | DEV_IS                                                                      | 9         | /28 (255.255.255.240) |
+| A12         | Kuroe_Kurueme                                                               | 29        | /27 (255.255.255.224) |
+| A13         | Sora_Beta_2                                                                 | 42        | /26 (255.255.255.192) |
 
 ## VLSM
 
