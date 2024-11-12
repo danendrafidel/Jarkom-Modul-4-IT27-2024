@@ -28,8 +28,6 @@
 
 ![alt text](<img/Topologi CPT.png>)
 
-### GNS3 | CIDR |
-
 ## RUTE SUBNET
 
 | Nama Subnet | Rute                                                                        | Jumlah IP | Netmask |
