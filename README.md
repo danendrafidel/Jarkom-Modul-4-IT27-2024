@@ -20,6 +20,10 @@
 
 ## TOPOLOGI
 
+### GNS3 | CIDR |
+
+![alt text](<img/Topologi GNS.png>)
+
 ### Cisco Packet Tracer | VLSM |
 
 ![alt text](<img/Topologi CPT.png>)
