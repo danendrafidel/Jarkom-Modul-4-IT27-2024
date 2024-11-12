@@ -36,9 +36,9 @@
 | A2          | HoloEn - Router0                                                            | 2         | /30     |
 | A3          | Router0 - Switch2 - Gura_Ayne_Ina - Switch2 - Kiara_Calli                   | 503       | /23     |
 | A4          | HoloEn - HoloAdvent                                                         | 2         | /30     |
-| A5          | HoloAdvent - Switch0 - FuwaMoco - Switch0 - ShioriNerissa - Switch- - Biboo | 27        | /27     |
+| A5          | HoloAdvent - Switch0 - FuwaMoco - Switch0 - ShioriNerissa - Switch- - Biboo | 28        | /27     |
 | A6          | Router0 - HoloPromise - HoloCouncil - HoloPromise - Router4                 | 3         | /29     |
-| A7          | Router4 - Tys                                                               | 4         | /29     |
+| A7          | Router4 - Tys                                                               | 3         | /29     |
 | A8          | HoloCouncil - Switch4 - KroniMumei - Switch4 - BaeFauna                     | 62        | /26     |
 | A9          | HoloLive - HoloID                                                           | 2         | /30     |
 | A10         | HoloID - AREA15                                                             | 2         | /30     |
