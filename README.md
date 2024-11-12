@@ -28,21 +28,30 @@
 
 ## RUTE SUBNET
 
-| Nama Subnet | Rute                                                                        | Jumlah IP | Netmask               |
-| ----------- | --------------------------------------------------------------------------- | --------- | --------------------- |
-| A1          | HoloLive - HoloEn                                                           | 2         | /30                   |
-| A2          | HoloEn - Router0                                                            | 2         | /30                   |
-| A3          | Router0 - Switch2 - Gura_Ayne_Ina - Switch2 - Kiara_Calli                   | 503       | /23                   |
-| A4          | HoloEn - HoloAdvent                                                         | 2         | /30                   |
-| A5          | HoloAdvent - Switch0 - FuwaMoco - Switch0 - ShioriNerissa - Switch- - Biboo | 27        | /27                   |
-| A6          | Router0 - HoloPromise - HoloCouncil - HoloPromise - Router4                 | 3         | /29                   |
-| A7          | Router4 - Tys                                                               | 4         | /29                   |
-| A8          | HoloCouncil - Switch4 - KroniMumei - Switch4 - BaeFauna                     | 62        | /26                   |
-| A9          | GEN 1                                                                       | 4         | /30 (255.255.255.252) |
-| A10         | GEN 2                                                                       | 4         | /30 (255.255.255.252) |
-| A11         | DEV_IS                                                                      | 9         | /28 (255.255.255.240) |
-| A12         | Kuroe_Kurueme                                                               | 29        | /27 (255.255.255.224) |
-| A13         | Sora_Beta_2                                                                 | 42        | /26 (255.255.255.192) |
+| Nama Subnet | Rute                                                                        | Jumlah IP | Netmask |
+| ----------- | --------------------------------------------------------------------------- | --------- | ------- |
+| A1          | HoloLive - HoloEn                                                           | 2         | /30     |
+| A2          | HoloEn - Router0                                                            | 2         | /30     |
+| A3          | Router0 - Switch2 - Gura_Ayne_Ina - Switch2 - Kiara_Calli                   | 503       | /23     |
+| A4          | HoloEn - HoloAdvent                                                         | 2         | /30     |
+| A5          | HoloAdvent - Switch0 - FuwaMoco - Switch0 - ShioriNerissa - Switch- - Biboo | 27        | /27     |
+| A6          | Router0 - HoloPromise - HoloCouncil - HoloPromise - Router4                 | 3         | /29     |
+| A7          | Router4 - Tys                                                               | 4         | /29     |
+| A8          | HoloCouncil - Switch4 - KroniMumei - Switch4 - BaeFauna                     | 62        | /26     |
+| A9          | HoloLive - HoloID                                                           | 2         | /30     |
+| A10         | HoloID - AREA15                                                             | 2         | /30     |
+| A11         | AREA15 - Switch6 - Risu - Switch6 - Moona - Switch6 - Lofi                  | 661       | /22     |
+| A12         | HoloID - Holoro                                                             | 2         | /30     |
+| A13         | Holoro - Switch7 - Ollie - Switch7 - Anya - Switch7 - Reine                 | 34        | /26     |
+| A14         | HoloID - Holoh3ro                                                           | 2         | /30     |
+| A15         | Holoh3ro - Switch8 - Zeta - Switch8 - Kaela - Switch8 - Kobo                | 299       | /23     |
+| A16         | HoloLive - HoloJP                                                           | 2         | /30     |
+| A17         | HoloJP - Switch1 - DEV_IS - Switch1 - GEN:0                                 | 3         | /29     |
+| A18         | DEV_IS - Re:Gloss - RirikaRaden - Re:Gloss - Ao - Re:Gloss - HajimeKanade   | 14        | /28     |
+| A19         | GEN:0 - Switch3 - MiComet - Switch3 - SoraRoboAzki - Switch3 -GEN:1         | 2045      | /21     |
+| A20         | GEN:1 - Gamers                                                              | 2         | /30     |
+| A21         | Gamers - Switch13 - Korone - Switch13 - Okayu - Switch13 - Mio              | 120       | /25     |
+| A22         | GEN:1 - Member - FBK_Matsuri - Member - Aki_Hachama                         | 470       | /23     |
 
 ## VLSM
 
