@@ -28,6 +28,10 @@
 
 ![alt text](<img/Topologi CPT.png>)
 
+Setelah Subnetting :
+
+![alt text](<img/Topologi GNS Subnet.png>)
+
 ## RUTE SUBNET
 
 | Nama Subnet | Rute                                                                        | Jumlah IP | Netmask |
