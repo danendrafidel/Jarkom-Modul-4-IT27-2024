@@ -138,3 +138,7 @@ Gabungan 9
 Gabungan 10
 
 ![alt text](<img/topo J.jpg>)
+
+CIDR TREE
+
+![alt text](<img/cidr tree.jpg>)
