@@ -20,10 +20,6 @@
 
 ## TOPOLOGI
 
-### GNS3 | CIDR |
-
-![alt text](<img/Topologi GNS.png>)
-
 ### Cisco Packet Tracer | VLSM |
 
 ![alt text](<img/Topologi CPT.png>)
@@ -100,3 +96,45 @@ Berikut Pembagian IPnya :
 | A20    | 10.77.19.104/30 | 255.255.255.252 | 10.77.19.107 | 10.77.19.105 - 10.77.19.106 |
 
 ## KONFIGURASI
+
+### GNS3 | CIDR |
+
+Gabungan 1
+
+![alt text](<img/topo B.jpg>)
+
+Gabungan 2
+
+![alt text](<img/topo B.jpg>)
+
+Gabungan 3
+
+![alt text](<img/topo C.jpg>)
+
+Gabungan 4
+
+![alt text](<img/topo D.jpg>)
+
+Gabungan 5
+
+![alt text](<img/topo E.jpg>)
+
+Gabungan 6
+
+![alt text](<img/topo F.jpg>)
+
+Gabungan 7
+
+![alt text](<img/topo G.jpg>)
+
+Gabungan 8
+
+![alt text](<img/topo H.jpg>)
+
+Gabungan 9
+
+![alt text](<img/topo I.jpg>)
+
+Gabungan 10
+
+![alt text](<img/topo J.jpg>)
