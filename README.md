@@ -101,11 +101,11 @@ Berikut Pembagian IPnya :
 
 Metode CIDR disini menggunakan GNS3 untuk pengaplikasiannya
 
-### GNS3 | CIDR |
+### Topologi CIDR |GNS3|
 
 Gabungan 1
 
-![alt text](<img/topo B.jpg>)
+![alt text](<img/topo A.jpg>)
 
 Gabungan 2
 
