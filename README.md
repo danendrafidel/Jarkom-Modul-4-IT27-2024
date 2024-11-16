@@ -97,6 +97,10 @@ Berikut Pembagian IPnya :
 
 ## KONFIGURASI
 
+## CIDR
+
+Metode CIDR disini menggunakan GNS3 untuk pengaplikasiannya
+
 ### GNS3 | CIDR |
 
 Gabungan 1
