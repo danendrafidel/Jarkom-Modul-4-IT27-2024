@@ -139,6 +139,16 @@ Gabungan 10
 
 ![alt text](<img/topo J.jpg>)
 
-CIDR TREE
+### Penggabungan Netmask
+
+![alt text](<img/gabungan i-iv.png>)
+
+![alt text](<img/gabungan v-ix.png>)
+
+### Tree CIDR 
 
 ![alt text](<img/cidr tree.jpg>)
+
+### Pembagian IP CIDR
+
+![alt text](<img/pembagian IP cidr.png>)
