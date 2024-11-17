@@ -55,7 +55,7 @@ Metode VLSM Sendiri disini digunakan pada Cisco Packet Tracer `CPT`
 
 ## TREE VLSM
 
-Berikut Treenya :
+Berikut Tree untuk VLSM :
 
 ![alt text](<img/VLSM TREE CPT.png>)
 
