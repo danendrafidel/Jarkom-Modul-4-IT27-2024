@@ -1209,3 +1209,7 @@ post-up route add -net 10.77.64.0 netmask 255.255.255.252 gw 10.77.32.1
 #A19
 post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.0.1
 ```
+
+### LINK REVISI CIDR
+
+https://youtu.be/91ybnUuZftA?si=ObLXZDw3mMD3yjmm
