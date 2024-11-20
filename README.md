@@ -172,50 +172,1040 @@ Gabungan 1
 
 Gabungan 2
 
+![alt text](<img/gabungan B.png>)
 ![alt text](<img/topo B.jpg>)
 
 Gabungan 3
 
+![alt text](<img/gabungan C.png>)
 ![alt text](<img/topo C.jpg>)
 
 Gabungan 4
 
+![alt text](<img/gabungan D.png>)
 ![alt text](<img/topo D.jpg>)
 
 Gabungan 5
 
+![alt text](<img/gabungan E.png>)
 ![alt text](<img/topo E.jpg>)
 
 Gabungan 6
 
+![alt text](<img/gabungan F.png>)
 ![alt text](<img/topo F.jpg>)
 
 Gabungan 7
 
+![alt text](<img/gabungan G.png>)
 ![alt text](<img/topo G.jpg>)
 
 Gabungan 8
 
+![alt text](<img/gabungan H.png>)
 ![alt text](<img/topo H.jpg>)
 
 Gabungan 9
 
+![alt text](<img/gabungan I.png>)
 ![alt text](<img/topo I.jpg>)
 
 Gabungan 10
 
+![alt text](<img/gabungan J.png>)
 ![alt text](<img/topo J.jpg>)
 
-### Penggabungan Netmask
-
-![alt text](<img/gabungan i-iv.png>)
-
-![alt text](<img/gabungan v-ix.png>)
-
-### Tree CIDR
+## Tree CIDR
 
 ![alt text](<img/cidr tree.jpg>)
 
-### Pembagian IP CIDR
+## Pembagian IP CIDR
 
 ![alt text](<img/pembagian IP cidr.png>)
+
+## Konfigurasi GNS3 CIDR
+**Hololive**
+
+```
+# A1
+auto eth1
+iface eth1 inet static
+    address 10.78.16.1
+    netmask 255.255.255.252
+
+# A9
+auto eth2
+iface eth2 inet static
+	address 10.77.160.1
+	netmask 255.255.255.252
+
+# A16
+auto eth3
+iface eth3 inet static
+	address 10.77.64.1
+	netmask 255.255.255.252
+```
+
+**Holo-EN**
+
+```
+#A1
+auto eth0
+iface eth0 inet static
+	address 10.78.16.2
+	netmask 255.255.255.252
+	gateway 10.78.16.1
+
+#A2
+auto eth1
+iface eth1 inet static
+	address 10.78.4.1
+	netmask 255.255.255.252
+
+#A4
+auto eth2
+iface eth2 inet static
+	address 10.78.8.33
+	netmask 255.255.255.252
+```
+
+**Holo-Myth**
+
+```
+# A2
+auto eth0
+iface eth0 inet static
+	address 10.78.4.2
+	netmask 255.255.255.252
+	gateway 10.78.4.1
+
+# A6
+auto eth1
+iface eth1 inet static
+	address 10.78.2.129
+	netmask 255.255.255.248
+
+# A3
+auto eth2
+iface eth2 inet static
+	address 10.78.0.1
+	netmask 255.255.254.0
+```
+
+**Gura_Ame_Ina (client)**
+
+```
+# A3
+auto eth0
+iface eth0 inet static
+	address 10.78.0.2
+	netmask 255.255.254.0
+	gateway 10.78.0.1
+
+```
+
+**Kiara_Calli (client)**
+
+```
+# A3
+auto eth0
+iface eth0 inet static
+	address 10.78.0.2
+	netmask 255.255.254.0
+	gateway 10.78.0.1
+
+```
+
+**Holo-Council**
+
+```
+# A6
+auto eth0
+iface eth0 inet static
+	address 10.78.2.131
+	netmask 255.255.255.248
+	gateway 10.78.2.129
+
+# A8
+auto eth1
+iface eth1 inet static
+	address 10.78.2.1
+	netmask 255.255.255.192
+```
+
+**Kronii_Mumei (client)**
+
+```
+# A8
+auto eth0
+iface eth0 inet static
+	address 10.78.2.2
+	netmask 255.255.255.192
+	gateway 10.78.2.1
+```
+
+**Bae_Fauna (client)**
+
+```
+# A8
+auto eth0
+iface eth0 inet static
+	address 10.78.2.3
+	netmask 255.255.255.192
+	gateway 10.78.2.1
+```
+
+**Project-Hope**
+
+```
+# A6
+auto eth0
+iface eth0 inet static
+	address 10.78.2.130
+	netmask 255.255.255.248
+	gateway 10.78.2.129
+
+# A7
+auto eth1
+iface eth1 inet static
+	address 10.78.2.65
+	netmask 255.255.255.248
+```
+
+**Irys (client)**
+
+```
+# A7
+auto eth0
+iface eth0 inet static
+	address 10.78.2.66
+	netmask 255.255.255.248
+	gateway 10.78.2.65
+```
+
+**Holo-Advent**
+
+```
+#A4
+auto eth0
+iface eth0 inet static
+	address 10.78.8.34
+	netmask 255.255.255.252
+	gateway 10.78.8.33
+
+#A5
+auto eth1
+iface eth1 inet static
+	address 10.78.8.1
+	netmask 255.255.255.224
+```
+
+**FuwaMoco (client)**
+
+```
+# A5
+auto eth0
+iface eth0 inet static
+	address 10.78.8.2
+	netmask 255.255.255.224
+	gateway 10.78.8.1
+```
+
+**Shiori_Nerissa (client)**
+
+```
+# A5
+auto eth0
+iface eth0 inet static
+	address 10.78.8.3
+	netmask 255.255.255.224
+	gateway 10.78.8.1
+```
+
+**Biboo(client)**
+
+```
+# A5
+auto eth0
+iface eth0 inet static
+	address 10.78.8.4
+	netmask 255.255.255.224
+	gateway 10.78.8.1
+```
+
+**Holo-ID**
+
+```
+# A9
+auto eth0
+iface eth0 inet static
+	address 10.77.160.2
+	netmask 255.255.255.252
+	
+# A10
+auto eth1
+iface eth1 inet static
+	address 10.77.132.1
+	netmask 255.255.255.252
+
+# A12
+auto eth2
+iface eth2 inet static
+	address 10.77.144.65
+	netmask 255.255.255.252
+	
+# A14
+auto eth3
+iface eth3 inet static
+	address 10.77.138.1
+	netmask 255.255.255.252
+```
+
+**AREA15**
+
+```
+# A10
+auto eth0
+iface eth0 inet static
+	address 10.77.132.2
+	netmask 255.255.255.252
+	gateway 10.77.132.1
+
+# A11
+auto eth1
+iface eth1 inet static
+	address 10.77.128.1
+	netmask 255.255.252.0
+```
+
+**Lofi (client)**
+
+```
+# A11
+auto eth0
+iface eth0 inet static
+	address 10.77.128.2
+	netmask 255.255.252.0
+	gateway 10.77.128.1
+```
+
+**Mooana (client)**
+
+```
+# A11
+auto eth0
+iface eth0 inet static
+	address 10.77.128.3
+	netmask 255.255.252.0
+	gateway 10.77.128.1
+```
+
+**Risu (client)**
+
+```
+# A11
+auto eth0
+iface eth0 inet static
+	address 10.77.128.4
+	netmask 255.255.252.0
+	gateway 10.77.128.1
+```
+
+**Holoro**
+
+```
+# A12
+auto eth0
+iface eth0 inet static
+	address 10.77.144.66
+	netmask 255.255.255.252
+	gateway 10.77.144.65
+
+# A13
+auto eth1
+iface eth1 inet static
+	address 10.77.144.1
+	netmask 255.255.255.192
+```
+
+**Ollie (client)**
+
+```
+# A13
+auto eth0
+iface eth0 inet static
+	address 10.77.144.2
+	netmask 255.255.255.192
+	gateway 10.77.144.1
+```
+
+**Anya (client)**
+
+```
+# A13
+auto eth0
+iface eth0 inet static
+	address 10.77.144.3
+	netmask 255.255.255.192
+	gateway 10.77.144.1
+```
+
+**Reine (client)**
+
+```
+# A13
+auto eth0
+iface eth0 inet static
+	address 10.77.144.4
+	netmask 255.255.255.192
+	gateway 10.77.144.1
+```
+
+**Holohero**
+
+```
+# A14
+auto eth0
+iface eth0 inet static
+	address 10.77.138.2
+	netmask 255.255.255.252
+	gateway 10.77.138.1
+
+# A15
+auto eth1
+iface eth1 inet static
+	address 10.77.136.1
+	netmask 255.255.254.0
+```
+
+**Zeta (client)**
+
+```
+# A15
+auto eth0
+iface eth0 inet static
+	address 10.77.136.2
+	netmask 255.255.254.0
+	gateway 10.77.136.1
+```
+
+**Kaela (client)**
+
+```
+# A15
+auto eth0
+iface eth0 inet static
+	address 10.77.136.3
+	netmask 255.255.254.0
+	gateway 10.77.136.1
+```
+
+**Kobo (client)**
+
+```
+# A15
+auto eth0
+iface eth0 inet static
+	address 10.77.136.4
+	netmask 255.255.254.0
+	gateway 10.77.136.1
+```
+
+**Holo-JP**
+
+```
+# A16
+auto eth0
+iface eth0 inet static
+	address 10.77.64.2
+	netmask 255.255.255.252
+
+# A17
+auto eth1
+iface eth1 inet static
+	address 10.77.32.1
+	netmask 255.255.255.248
+```
+
+**Dev-IS**
+
+```
+# A17
+auto eth0
+iface eth0 inet static
+	address 10.77.32.2
+	netmask 255.255.255.248
+	gateway 10.77.32.1
+
+# A18
+auto eth1
+iface eth1 inet static
+	address 10.77.16.1
+	netmask 255.255.255.240
+```
+
+**Ririka_Raden (client)**
+
+```
+# A18
+auto eth0
+iface eth0 inet static
+	address 10.77.16.2
+	netmask 255.255.255.240
+	gateway 10.77.16.1
+```
+
+**Ao (client)**
+
+```
+# A18
+auto eth0
+iface eth0 inet static
+	address 10.77.16.3
+	netmask 255.255.255.240
+	gateway 10.77.16.1
+```
+**Hajime_Kanade (client)**
+
+```
+# A18
+auto eth0
+iface eth0 inet static
+	address 10.77.16.4
+	netmask 255.255.255.240
+	gateway 10.77.16.1
+```
+
+**GEN:0**
+
+```
+# A17
+auto eth0
+iface eth0 inet static
+	address 10.77.32.3
+	netmask 255.255.255.248
+	gateway 10.77.32.1
+
+# A19
+auto eth1
+iface eth1 inet static
+	address 10.77.0.1
+	netmask 255.255.248.0
+```
+
+**MiComet (client)**
+
+```
+# A19
+auto eth0
+iface eth0 inet static
+	address 10.77.0.2
+	netmask 255.255.248.0
+	gateway 10.77.0.1
+```
+
+**Sora_Robo_AZKi (client)**
+
+```
+# A19
+auto eth0
+iface eth0 inet static
+	address 10.77.0.3
+	netmask 255.255.248.0
+	gateway 10.77.0.1
+```
+
+**GEN:1**
+
+```
+# A19
+auto eth0
+iface eth0 inet static
+	address 10.77.0.4
+	netmask 255.255.248.0
+	gateway 10.77.0.1
+
+# A20
+auto eth1
+iface eth1 inet static
+	address 10.77.10.129 
+	netmask 255.255.255.252
+
+# A22
+auto eth2
+iface eth2 inet static
+	address 10.77.8.1
+	netmask 255.255.254.0
+```
+
+**FBK_Matsuri (client)**
+
+```
+# A22
+auto eth0
+iface eth0 inet static
+	address 10.77.8.2
+	netmask 255.255.254.0
+	gateway 10.77.8.1
+```
+
+**Aki_Hachama (client)**
+
+```
+# A22
+auto eth0
+iface eth0 inet static
+	address 10.77.8.3
+	netmask 255.255.254.0
+	gateway 10.77.8.1
+```
+
+**Gamers**
+
+```
+# A20
+auto eth0
+iface eth0 inet static
+	address 10.77.10.130
+	netmask 255.255.255.252
+	gateway 10.77.10.129 
+
+# A21
+auto eth1
+iface eth1 inet static
+	address 10.77.10.1
+	netmask 255.255.255.128
+```
+
+**Korone (client)**
+
+```
+# A21
+auto eth0
+iface eth0 inet static
+	address 10.77.10.2
+	netmask 255.255.255.128
+	gateway 10.77.10.1
+```
+
+**Okayu (client)**
+
+```
+# A21
+auto eth0
+iface eth0 inet static
+	address 10.77.10.3
+	netmask 255.255.255.128
+	gateway 10.77.10.1
+```
+
+**Mio (client)**
+
+```
+# A21
+auto eth0
+iface eth0 inet static
+	address 10.77.10.4
+	netmask 255.255.255.128
+	gateway 10.77.10.1
+```
+
+## Routing GNS3 CIDR
+**Hololive**
+
+```
+#A2 
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.78.16.2
+
+#A3
+post-up route add -net 10.78.0.0 netmask 255.255.254.0 gw 10.78.16.2
+
+#A4
+post-up route add -net 10.78.8.32 netmask 255.255.255.252 gw 10.78.16.2
+
+#A5
+post-up route add -net 10.78.8.0 netmask 255.255.255.224 gw 10.78.16.2
+
+#A6
+post-up route add -net 10.78.2.128 netmask 255.255.255.248 gw 10.78.16.2
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.78.16.2
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.78.16.2
+
+#A10
+post-up route add -net 10.77.132.0 netmask 255.255.255.252 gw 10.77.160.2
+
+#A11
+post-up route add -net 10.77.128.0 netmask 255.255.252.0 gw 10.77.160.2
+
+#A12
+post-up route add -net 10.77.144.64 netmask 255.255.255.252 gw 10.77.160.2
+
+#A13
+post-up route add -net 10.77.144.0 netmask 255.255.255.192 gw 10.77.160.2
+
+#A14
+post-up route add -net 10.77.138.0 netmask 255.255.255.252 gw 10.77.160.2
+
+#A15
+post-up route add -net 10.77.136.0 netmask 255.255.254.0 gw 10.77.160.2
+
+#A17
+post-up route add -net 10.77.32.0 netmask 255.255.255.248 gw 10.77.64.2
+
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.64.2
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.64.2
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.64.2
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.64.2
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.64.2
+```
+
+**Holo-EN**
+
+```
+#A3
+post-up route add -net 10.78.0.0 netmask 255.255.254.0 gw 10.78.4.2
+
+#A5
+post-up route add -net 10.78.8.0 netmask 255.255.255.224 gw 10.78.8.34
+
+#A6
+post-up route add -net 10.78.2.128 netmask 255.255.255.248 gw 10.78.4.2
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.78.4.2
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.78.4.2
+```
+
+**Holo-Myth**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.78.4.1
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.78.2.130
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.78.2.131
+```
+
+**Holo-Council**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.78.4.1
+
+#A2
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.78.2.129
+```
+
+**Project-Hope**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.78.4.1
+
+#A2
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.78.2.129
+```
+
+**Holo-Advent**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.78.8.33
+```
+
+**Holo-ID**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A2
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A3
+post-up route add -net 10.78.0.0 netmask 255.255.254.0 gw 10.77.160.1
+
+#A4
+post-up route add -net 10.78.8.32 netmask 255.255.255.252 gw 10.77.160.1
+
+#A5
+post-up route add -net 10.78.8.0 netmask 255.255.255.224 gw 10.77.160.1
+
+#A6
+post-up route add -net 10.78.2.128 netmask 255.255.255.248 gw 10.77.160.1
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.77.160.1
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.77.160.1
+
+#A11
+post-up route add -net 10.77.128.0 netmask 255.255.252.0 gw 10.77.132.2
+
+#A13
+post-up route add -net 10.77.144.0 netmask 255.255.255.192 gw 10.77.144.66
+
+#A15
+post-up route add -net 10.77.136.0 netmask 255.255.254.0 gw 10.77.138.2
+
+#A17
+post-up route add -net 10.77.32.0 netmask 255.255.255.248 gw 10.77.160.1
+
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.160.1
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.160.1
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.160.1
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.160.1
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.160.1
+```
+
+**AREA15**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A2 
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A3
+post-up route add -net 10.78.0.0 netmask 255.255.254.0 gw 10.77.160.1
+
+#A4
+post-up route add -net 10.78.8.32 netmask 255.255.255.252 gw 10.77.160.1
+
+#A5
+post-up route add -net 10.78.8.0 netmask 255.255.255.224 gw 10.77.160.1
+
+#A6
+post-up route add -net 10.78.2.128 netmask 255.255.255.248 gw 10.77.160.1
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.77.160.1
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.77.160.1
+
+#A9
+post-up route add -net 10.77.160.0 netmask 255.255.255.252 gw 10.77.132.1
+
+#A17
+post-up route add -net 10.77.32.0 netmask 255.255.255.248 gw 10.77.132.1
+
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.132.1
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.132.1
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.132.1
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.132.1
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.132.1
+```
+
+**Holoro**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A2 
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A3
+post-up route add -net 10.78.0.0 netmask 255.255.254.0 gw 10.77.160.1
+
+#A4
+post-up route add -net 10.78.8.32 netmask 255.255.255.252 gw 10.77.160.1
+
+#A5
+post-up route add -net 10.78.8.0 netmask 255.255.255.224 gw 10.77.160.1
+
+#A6
+post-up route add -net 10.78.2.128 netmask 255.255.255.248 gw 10.77.160.1
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.77.160.1
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.77.160.1
+
+#A9
+post-up route add -net 10.77.160.0 netmask 255.255.255.252 gw 10.77.144.65
+
+#A17
+post-up route add -net 10.77.32.0 netmask 255.255.255.248 gw 10.77.144.65
+
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.144.65
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.144.65
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.144.65
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.144.65
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.144.65
+```
+
+**Holohero**
+
+```
+#A1
+post-up route add -net 10.78.16.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A2 
+post-up route add -net 10.78.4.0 netmask 255.255.255.252 gw 10.77.160.1
+
+#A3
+post-up route add -net 10.78.0.0 netmask 255.255.254.0 gw 10.77.160.1
+
+#A4
+post-up route add -net 10.78.8.32 netmask 255.255.255.252 gw 10.77.160.1
+
+#A5
+post-up route add -net 10.78.8.0 netmask 255.255.255.224 gw 10.77.160.1
+
+#A6
+post-up route add -net 10.78.2.128 netmask 255.255.255.248 gw 10.77.160.1
+
+#A7
+post-up route add -net 10.78.2.64 netmask 255.255.255.248 gw 10.77.160.1
+
+#A8
+post-up route add -net 10.78.2.0 netmask 255.255.255.192 gw 10.77.160.1
+
+#A9
+post-up route add -net 10.77.160.0 netmask 255.255.255.252 gw 10.77.138.1
+
+#A17
+post-up route add -net 10.77.32.0 netmask 255.255.255.248 gw 10.77.138.1
+
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.138.1
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.138.1
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.138.1
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.138.1
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.138.1
+```
+
+**Hol0-JP**
+
+```
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.32.2
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.32.3
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.32.3
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.32.3
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.32.3
+```
+
+**Dev-IS**
+
+```
+#A16
+post-up route add -net 10.77.64.0 netmask 255.255.255.252 gw 10.77.32.1
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.32.3
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.32.3
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.32.3
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.32.3
+```
+
+**GEN:0**
+
+```
+#A16
+post-up route add -net 10.77.64.0 netmask 255.255.255.252 gw 10.77.32.1
+
+#A18
+post-up route add -net 10.77.16.0 netmask 255.255.255.240 gw 10.77.32.2
+
+#A20
+post-up route add -net 10.77.10.128 netmask 255.255.255.252 gw 10.77.0.4
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.0.4
+
+#A22
+post-up route add -net 10.77.8.0 netmask 255.255.254.0 gw 10.77.0.4
+```
+
+**GEN:1**
+
+```
+#A16
+post-up route add -net 10.77.64.0 netmask 255.255.255.252 gw 10.77.32.1
+
+#A21
+post-up route add -net 10.77.10.0 netmask 255.255.255.128 gw 10.77.10.130
+```
+
+**Gamers**
+
+```
+#A16
+post-up route add -net 10.77.64.0 netmask 255.255.255.252 gw 10.77.32.1
+
+#A19
+post-up route add -net 10.77.0.0 netmask 255.255.248.0 gw 10.77.0.1
+```
